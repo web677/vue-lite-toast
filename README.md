@@ -6,7 +6,7 @@ Vue.js toast notification plugin for vue 3
 
 ```bash
 # npm
-npm install @meforma/vue-toaster
+npm install vue-lite-toast
 ```
 
 ## Import
