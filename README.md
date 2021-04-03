@@ -22,8 +22,8 @@ createApp(App).use(Toast).mount("#app");
 ## Usage
 
 ```js
-// this.$toast.show(message, {/* options */});
-this.$toast.show(`Hello world`);
+// this.$toast.open(message, {/* options */});
+this.$toast.open(`Hello world`);
 this.$toast.success(`Hello world`);
 this.$toast.error(`Hello world`);
 this.$toast.warning(`Hello world`);
@@ -44,23 +44,23 @@ The API methods accepts these options:
 
 ## API methods
 
-### `show(message, ?options)`
+### `open(message, ?options)`
 
 This is generic method, you can use this method to make any kind of toast.
 
 ```js
 // Can accept a message as string and apply rest of options from defaults
-this.$toast.show("Hello!");
+this.$toast.open("Hello!");
 
 // Can accept an Object of options.
 // If yout don't pass options, the default toast will be showed
 
-this.$toast.show("Something went wrong!", {
+this.$toast.open("Something went wrong!", {
   type: "error",
   // all of other options may go here
 });
 
-this.$toast.show("Something stay longer!", {
+this.$toast.open("Something stay longer!", {
   duration: 4000,
   // all of other options may go here
 });
