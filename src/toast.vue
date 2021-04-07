@@ -28,7 +28,7 @@ export default {
         },
         lock: {
             type: Boolean,
-            default: true
+            default: false
         },
         onClose: {
             type: Function,

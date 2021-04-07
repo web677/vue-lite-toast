@@ -40,7 +40,7 @@ The API methods accepts these options:
 | type      |  String  | `info`  | One of `success`, `info`, `warning`, `error`       |
 | duration  |  Number  | `2500`  | Visibility duration in milliseconds                |
 | onClose   | Function |   --    | Do something after toast gets dismissed            |
-| lock      | Boolean  | `true`  | Prevent users from manipulating pages during toast |
+| lock      | Boolean  | `false`  | Prevent users from manipulating pages during toast |
 
 ## API methods
 
